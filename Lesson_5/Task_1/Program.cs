@@ -16,7 +16,7 @@ int[,] CreateMatrix(int rowCount, int columsCount)//Функция создан�
     return matrix;
 }
 
-void ShowMatrix(int[,] matrix)//функция вывода матрицы на экран
+void ShowMatrix(int[,] matrix)//функция вывода матрицы на экран.
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
